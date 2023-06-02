@@ -12,10 +12,10 @@ loadMoreBtn.addEventListener('click', loadMoreImages);
 
 initializeSimpleLightbox();
 
-function showLoadMoreButton() {
+export function showLoadMoreButton() {
   loadMoreBtn.classList.remove('hidden');
 }
 
-function hideLoadMoreButton() {
+export function hideLoadMoreButton() {
   loadMoreBtn.classList.add('hidden');
 }
